@@ -116,7 +116,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\Pichau\\Documents\\Projects\\rocketseat\\ignite-call\\src\\generated\\prisma",
+      "value": "C:\\Users\\Pichau\\Documents\\Projects\\rocketseat\\next-js-starter\\src\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -130,7 +130,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\Pichau\\Documents\\Projects\\rocketseat\\ignite-call\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\Pichau\\Documents\\Projects\\rocketseat\\next-js-starter\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
