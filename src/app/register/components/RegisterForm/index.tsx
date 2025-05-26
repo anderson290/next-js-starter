@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { startTransition, useEffect, useOptimistic, useState } from 'react';
 import { registerUserSchema } from '@/lib/validators';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams  } from 'next/navigation';
 
 
 // Define the type for the form data based on the Zod schema
@@ -14,6 +14,8 @@ type RegisterFormData = z.infer<typeof registerUserSchema>;
 export default function RegisterForm() {
 
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const error = searchParams.get('error');
 
   // State to track if the form is being submitted
   const [isSubmitting, setIsSubmitting] = useState(false);
