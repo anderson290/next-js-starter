@@ -16,16 +16,20 @@ bun dev
 
 ## COMMANDS TO KNOW
 
-<pre> ```npx create-next-app@latest --use-npm``` </pre>
-<pre> ```npm install react hook form``` </pre>
+```bash 
+npx create-next-app@latest --use-npm
+npm install react hook form
+```
 
-# PRISMA
+### PRISMA
 
-<pre> ```npm i prisma``` </pre>
-<pre> ```npm i @prisma/client``` </pre>
-<pre> ```npx prisma init --datasource-provider SQLite``` </pre>
-<pre> ```npx prisma migrate dev //só em dev``` </pre>
-<pre> ```npx prisma studio``` </pre>
+```bash 
+npm i prisma
+npm i @prisma/client
+npx prisma init --datasource-provider SQLite
+npx prisma migrate dev #only on dev
+npx prisma studio
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
